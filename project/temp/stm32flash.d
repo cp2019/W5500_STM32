@@ -1,0 +1,14 @@
+.\temp\stm32flash.o: ..\Hardwave\STM32Flash.c
+.\temp\stm32flash.o: ..\Hardwave\STM32Flash.h
+.\temp\stm32flash.o: ..\system\system.h
+.\temp\stm32flash.o: ..\system\stm32f103_map.h
+.\temp\stm32flash.o: ..\system\typedef.h
+.\temp\stm32flash.o: ..\system\delay.h
+.\temp\stm32flash.o: ..\system\system.h
+.\temp\stm32flash.o: ..\system\gpio_init.h
+.\temp\stm32flash.o: D:\ProgramFiles\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\temp\stm32flash.o: ..\Program\ucOS_II\Source\ucos_ii.h
+.\temp\stm32flash.o: ..\Program\ucOS_II\CortexM3\app_cfg.h
+.\temp\stm32flash.o: ..\Program\ucOS_II\Source\os_cfg.h
+.\temp\stm32flash.o: ..\Program\ucOS_II\CortexM3\os_cpu.h
+.\temp\stm32flash.o: ..\Hardwave\usart.h

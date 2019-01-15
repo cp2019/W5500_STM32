@@ -1,0 +1,17 @@
+.\temp\dhcp.o: ..\Hardwave\W5500\dhcp.c
+.\temp\dhcp.o: ..\Hardwave\W5500\w5500_socket.h
+.\temp\dhcp.o: ..\system\system.h
+.\temp\dhcp.o: ..\system\stm32f103_map.h
+.\temp\dhcp.o: ..\system\typedef.h
+.\temp\dhcp.o: ..\system\delay.h
+.\temp\dhcp.o: ..\system\system.h
+.\temp\dhcp.o: ..\system\gpio_init.h
+.\temp\dhcp.o: D:\ProgramFiles\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\temp\dhcp.o: ..\Program\ucOS_II\Source\ucos_ii.h
+.\temp\dhcp.o: ..\Program\ucOS_II\CortexM3\app_cfg.h
+.\temp\dhcp.o: ..\Program\ucOS_II\Source\os_cfg.h
+.\temp\dhcp.o: ..\Program\ucOS_II\CortexM3\os_cpu.h
+.\temp\dhcp.o: ..\Hardwave\usart.h
+.\temp\dhcp.o: ..\Hardwave\W5500\W5500.h
+.\temp\dhcp.o: ..\Hardwave\W5500\dhcp.h
+.\temp\dhcp.o: D:\ProgramFiles\Keil_v5\ARM\ARMCC\bin\..\include\string.h

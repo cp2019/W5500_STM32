@@ -1,0 +1,15 @@
+.\temp\usart.o: ..\Hardwave\USART.c
+.\temp\usart.o: ..\system\SYSTEM.H
+.\temp\usart.o: ..\system\stm32f103_map.h
+.\temp\usart.o: ..\system\typedef.h
+.\temp\usart.o: ..\system\delay.h
+.\temp\usart.o: ..\system\system.h
+.\temp\usart.o: ..\system\gpio_init.h
+.\temp\usart.o: D:\ProgramFiles\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\temp\usart.o: ..\Program\ucOS_II\Source\ucos_ii.h
+.\temp\usart.o: ..\Program\ucOS_II\CortexM3\app_cfg.h
+.\temp\usart.o: ..\Program\ucOS_II\Source\os_cfg.h
+.\temp\usart.o: ..\Program\ucOS_II\CortexM3\os_cpu.h
+.\temp\usart.o: ..\Hardwave\usart.h
+.\temp\usart.o: ..\Hardwave\dma.h
+.\temp\usart.o: D:\ProgramFiles\Keil_v5\ARM\ARMCC\bin\..\include\string.h

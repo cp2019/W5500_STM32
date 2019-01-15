@@ -1,0 +1,14 @@
+.\temp\gpio_init.o: ..\system\GPIO_INIT.c
+.\temp\gpio_init.o: ..\system\GPIO_INIT.H
+.\temp\gpio_init.o: ..\system\SYSTEM.H
+.\temp\gpio_init.o: ..\system\stm32f103_map.h
+.\temp\gpio_init.o: ..\system\typedef.h
+.\temp\gpio_init.o: ..\system\delay.h
+.\temp\gpio_init.o: ..\system\system.h
+.\temp\gpio_init.o: ..\system\gpio_init.h
+.\temp\gpio_init.o: D:\ProgramFiles\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\temp\gpio_init.o: ..\Program\ucOS_II\Source\ucos_ii.h
+.\temp\gpio_init.o: ..\Program\ucOS_II\CortexM3\app_cfg.h
+.\temp\gpio_init.o: ..\Program\ucOS_II\Source\os_cfg.h
+.\temp\gpio_init.o: ..\Program\ucOS_II\CortexM3\os_cpu.h
+.\temp\gpio_init.o: ..\Hardwave\usart.h

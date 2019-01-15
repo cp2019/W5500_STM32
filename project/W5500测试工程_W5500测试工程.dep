@@ -1,0 +1,335 @@
+Dependencies for Project 'W5500测试工程', Target 'W5500测试工程': (DO NOT MODIFY !)
+F (..\system\startup\cortexm3_macro.s)(0x5C3BD5C1)(--cpu Cortex-M3 -g --apcs=interwork -I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include--list .\cortexm3_macro.lst --xref -o .\temp\cortexm3_macro.o --depend .\temp\cortexm3_macro.d)
+F (..\system\startup\startup_stm32f10x_hd.s)(0x5C3BD5C2)(--cpu Cortex-M3 -g --apcs=interwork -I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include--list .\startup_stm32f10x_hd.lst --xref -o .\temp\startup_stm32f10x_hd.o --depend .\temp\startup_stm32f10x_hd.d)
+F (..\system\DELAY.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\delay.o --omf_browse .\temp\delay.crf --depend .\temp\delay.d)
+I (..\system\SYSTEM.H)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+F (..\system\SYSTEM.C)(0x5C3D30AB)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\system.o --omf_browse .\temp\system.crf --depend .\temp\system.d)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\SYSTEM.H)(0x5C3D30AB)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\system\GPIO_INIT.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\gpio_init.o --omf_browse .\temp\gpio_init.crf --depend .\temp\gpio_init.d)
+I (..\system\GPIO_INIT.H)(0x5C3D8F81)
+I (..\system\SYSTEM.H)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+F (..\user\main.c)(0x5C3D3374)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\main.o --omf_browse .\temp\main.crf --depend .\temp\main.d)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+I (..\Hardwave\led.h)(0x5C3BD5C1)
+I (..\BoardSupport\board.h)(0x5C3C4838)
+I (..\Hardwave\DMA.h)(0x5C3BD5C1)
+I (..\Hardwave\spi.h)(0x5C3BD5C1)
+I (..\user\main.h)(0x5C3BD5C2)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (..\Hardwave\WDG.h)(0x5C3BD5C1)
+I (..\UserTask\USERTASK.h)(0x5C3D334F)
+F (..\Hardwave\LED.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\led.o --omf_browse .\temp\led.crf --depend .\temp\led.d)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+I (..\Hardwave\led.h)(0x5C3BD5C1)
+I (..\BoardSupport\board.h)(0x5C3C4838)
+I (..\Hardwave\DMA.h)(0x5C3BD5C1)
+I (..\Hardwave\spi.h)(0x5C3BD5C1)
+F (..\Hardwave\USART.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\usart.o --omf_browse .\temp\usart.crf --depend .\temp\usart.d)
+I (..\system\SYSTEM.H)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+I (..\Hardwave\dma.h)(0x5C3BD5C1)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\Hardwave\wdg.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\wdg.o --omf_browse .\temp\wdg.crf --depend .\temp\wdg.d)
+I (..\Hardwave\wdg.h)(0x5C3BD5C1)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+F (..\Hardwave\STM32Flash.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\stm32flash.o --omf_browse .\temp\stm32flash.crf --depend .\temp\stm32flash.d)
+I (..\Hardwave\STM32Flash.h)(0x5C3BD5C1)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+F (..\Hardwave\DMA.c)(0x5C3D8FAF)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\dma.o --omf_browse .\temp\dma.crf --depend .\temp\dma.d)
+I (..\Hardwave\dma.h)(0x5C3BD5C1)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+F (..\Hardwave\SPI.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\spi.o --omf_browse .\temp\spi.crf --depend .\temp\spi.d)
+I (..\Hardwave\SPI.H)(0x5C3BD5C1)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+F (..\Hardwave\STM32Flash_Lock.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\stm32flash_lock.o --omf_browse .\temp\stm32flash_lock.crf --depend .\temp\stm32flash_lock.d)
+I (..\Hardwave\STM32Flash.h)(0x5C3BD5C1)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+I (..\Hardwave\STM32Flash_Lock.h)(0x5C3BD5C1)
+F (..\Hardwave\W5500\W5500.c)(0x5C3D5E1E)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\w5500.o --omf_browse .\temp\w5500.crf --depend .\temp\w5500.d)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+I (..\Hardwave\W5500\W5500.h)(0x5C3D7001)
+I (..\Hardwave\SPI.h)(0x5C3BD5C1)
+I (..\BoardSupport\board.h)(0x5C3C4838)
+I (..\Hardwave\DMA.h)(0x5C3BD5C1)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\Hardwave\W5500\w5500_socket.c)(0x5C3D8B67)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\w5500_socket.o --omf_browse .\temp\w5500_socket.crf --depend .\temp\w5500_socket.d)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+I (..\Hardwave\W5500\W5500.h)(0x5C3D7001)
+I (..\Hardwave\W5500\w5500_socket.h)(0x5C3D74FF)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (..\BoardSupport\board.h)(0x5C3C4838)
+I (..\Hardwave\DMA.h)(0x5C3BD5C1)
+I (..\Hardwave\spi.h)(0x5C3BD5C1)
+F (..\Hardwave\W5500\dhcp.c)(0x5C3D8BCB)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\dhcp.o --omf_browse .\temp\dhcp.crf --depend .\temp\dhcp.d)
+I (..\Hardwave\W5500\w5500_socket.h)(0x5C3D74FF)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+I (..\Hardwave\W5500\W5500.h)(0x5C3D7001)
+I (..\Hardwave\W5500\dhcp.h)(0x5C3D77C0)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\Program\ucOS_II\CortexM3\os_cpu_c.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\os_cpu_c.o --omf_browse .\temp\os_cpu_c.crf --depend .\temp\os_cpu_c.d)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+F (..\Program\ucOS_II\Source\os_core.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\os_core.o --omf_browse .\temp\os_core.crf --depend .\temp\os_core.d)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+F (..\Program\ucOS_II\Source\os_dbg_r.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\os_dbg_r.o --omf_browse .\temp\os_dbg_r.crf --depend .\temp\os_dbg_r.d)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+F (..\Program\ucOS_II\Source\os_flag.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\os_flag.o --omf_browse .\temp\os_flag.crf --depend .\temp\os_flag.d)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+F (..\Program\ucOS_II\Source\os_mbox.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\os_mbox.o --omf_browse .\temp\os_mbox.crf --depend .\temp\os_mbox.d)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+F (..\Program\ucOS_II\Source\os_mem.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\os_mem.o --omf_browse .\temp\os_mem.crf --depend .\temp\os_mem.d)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+F (..\Program\ucOS_II\Source\os_mutex.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\os_mutex.o --omf_browse .\temp\os_mutex.crf --depend .\temp\os_mutex.d)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+F (..\Program\ucOS_II\Source\os_q.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\os_q.o --omf_browse .\temp\os_q.crf --depend .\temp\os_q.d)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+F (..\Program\ucOS_II\Source\os_sem.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\os_sem.o --omf_browse .\temp\os_sem.crf --depend .\temp\os_sem.d)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+F (..\Program\ucOS_II\Source\os_task.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\os_task.o --omf_browse .\temp\os_task.crf --depend .\temp\os_task.d)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+F (..\Program\ucOS_II\Source\os_time.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\os_time.o --omf_browse .\temp\os_time.crf --depend .\temp\os_time.d)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+F (..\Program\ucOS_II\Source\os_tmr.c)(0x5C3BD5C1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\os_tmr.o --omf_browse .\temp\os_tmr.crf --depend .\temp\os_tmr.d)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+F (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)()
+F (..\Program\ucOS_II\CortexM3\cpu.h)(0x5C3BD5C1)()
+F (..\Program\ucOS_II\CortexM3\cpu_a.asm)(0x5C3BD5C1)(--cpu Cortex-M3 -g --apcs=interwork -I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include--list .\cpu_a.lst --xref -o .\temp\cpu_a.o --depend .\temp\cpu_a.d)
+F (..\Program\ucOS_II\CortexM3\cpu_def.h)(0x5C3BD5C1)()
+F (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)()
+F (..\Program\ucOS_II\CortexM3\os_cpu_a.asm)(0x5C3BD5C1)(--cpu Cortex-M3 -g --apcs=interwork -I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include--list .\os_cpu_a.lst --xref -o .\temp\os_cpu_a.o --depend .\temp\os_cpu_a.d)
+F (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)()
+F (..\UserTask\W5500_Task.c)(0x5C3D292F)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\w5500_task.o --omf_browse .\temp\w5500_task.crf --depend .\temp\w5500_task.d)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+I (..\user\main.h)(0x5C3BD5C2)
+I (..\BoardSupport\board.h)(0x5C3C4838)
+I (..\Hardwave\DMA.h)(0x5C3BD5C1)
+I (..\Hardwave\spi.h)(0x5C3BD5C1)
+I (..\Hardwave\W5500\w5500.h)(0x5C3D7001)
+I (..\UserTask\userTASK.h)(0x5C3D334F)
+I (..\Hardwave\wdg.h)(0x5C3BD5C1)
+F (..\UserTask\SOCKET_Tas.c)(0x5C3D899A)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\socket_tas.o --omf_browse .\temp\socket_tas.crf --depend .\temp\socket_tas.d)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+I (..\user\main.h)(0x5C3BD5C2)
+I (..\BoardSupport\board.h)(0x5C3C4838)
+I (..\Hardwave\DMA.h)(0x5C3BD5C1)
+I (..\Hardwave\spi.h)(0x5C3BD5C1)
+I (..\UserTask\userTASK.h)(0x5C3D334F)
+I (..\Hardwave\wdg.h)(0x5C3BD5C1)
+I (..\Hardwave\W5500\W5500_Socket.h)(0x5C3D74FF)
+I (..\Hardwave\W5500\W5500.h)(0x5C3D7001)
+I (..\Hardwave\W5500\DHCP.h)(0x5C3D77C0)
+F (..\BoardSupport\board.c)(0x5C3BD5C0)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I..\Hardwave -I..\system -I..\user -I..\Program\ucOS_II\Source -I..\Program\ucOS_II\CortexM3 -I..\UserTask -I..\Hardwave\W5500 -I..\BoardSupport-I D:\ProgramFiles\Keil_v5\ARM\RV31\INC-I D:\ProgramFiles\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\ProgramFiles\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.4\Device\Include-DSTM32F10X_HD -o .\temp\board.o --omf_browse .\temp\board.crf --depend .\temp\board.d)
+I (..\system\system.h)(0x5C3D30AB)
+I (..\system\stm32f103_map.h)(0x5C3BD5C2)
+I (..\system\typedef.h)(0x5C3BD5C2)
+I (..\system\delay.h)(0x5C3D8FAE)
+I (..\system\gpio_init.h)(0x5C3D8F81)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Program\ucOS_II\Source\ucos_ii.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\app_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\Source\os_cfg.h)(0x5C3BD5C1)
+I (..\Program\ucOS_II\CortexM3\os_cpu.h)(0x5C3BD5C1)
+I (..\Hardwave\usart.h)(0x5C3BD5C1)
+I (..\user\main.h)(0x5C3BD5C2)
+I (..\BoardSupport\board.h)(0x5C3C4838)
+I (..\Hardwave\DMA.h)(0x5C3BD5C1)
+I (..\Hardwave\spi.h)(0x5C3BD5C1)
+I (..\Hardwave\stm32flash.h)(0x5C3BD5C1)
+I (D:\ProgramFiles\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (..\Hardwave\Wdg.h)(0x5C3BD5C1)
+I (..\Hardwave\STM32Flash_Lock.h)(0x5C3BD5C1)

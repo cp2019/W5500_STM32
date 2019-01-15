@@ -1,0 +1,17 @@
+.\temp\led.o: ..\Hardwave\LED.c
+.\temp\led.o: ..\system\system.h
+.\temp\led.o: ..\system\stm32f103_map.h
+.\temp\led.o: ..\system\typedef.h
+.\temp\led.o: ..\system\delay.h
+.\temp\led.o: ..\system\system.h
+.\temp\led.o: ..\system\gpio_init.h
+.\temp\led.o: D:\ProgramFiles\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\temp\led.o: ..\Program\ucOS_II\Source\ucos_ii.h
+.\temp\led.o: ..\Program\ucOS_II\CortexM3\app_cfg.h
+.\temp\led.o: ..\Program\ucOS_II\Source\os_cfg.h
+.\temp\led.o: ..\Program\ucOS_II\CortexM3\os_cpu.h
+.\temp\led.o: ..\Hardwave\usart.h
+.\temp\led.o: ..\Hardwave\led.h
+.\temp\led.o: ..\BoardSupport\board.h
+.\temp\led.o: ..\Hardwave\DMA.h
+.\temp\led.o: ..\Hardwave\spi.h

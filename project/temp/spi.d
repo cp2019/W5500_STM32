@@ -1,0 +1,14 @@
+.\temp\spi.o: ..\Hardwave\SPI.c
+.\temp\spi.o: ..\Hardwave\SPI.H
+.\temp\spi.o: ..\system\system.h
+.\temp\spi.o: ..\system\stm32f103_map.h
+.\temp\spi.o: ..\system\typedef.h
+.\temp\spi.o: ..\system\delay.h
+.\temp\spi.o: ..\system\system.h
+.\temp\spi.o: ..\system\gpio_init.h
+.\temp\spi.o: D:\ProgramFiles\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\temp\spi.o: ..\Program\ucOS_II\Source\ucos_ii.h
+.\temp\spi.o: ..\Program\ucOS_II\CortexM3\app_cfg.h
+.\temp\spi.o: ..\Program\ucOS_II\Source\os_cfg.h
+.\temp\spi.o: ..\Program\ucOS_II\CortexM3\os_cpu.h
+.\temp\spi.o: ..\Hardwave\usart.h

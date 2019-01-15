@@ -1,0 +1,195 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+F:\工作相关\DX-RTU-1遥测终端机\软件工程\RTU软件v4.xx\W5500测试工程\project\W5500测试工程.uvproj
+Project File Date:  01/15/2019
+
+<h2>Output:</h2>
+Rebuild target 'W5500测试工程'
+assembling cortexm3_macro.s...
+assembling startup_stm32f10x_hd.s...
+compiling DELAY.c...
+compiling SYSTEM.C...
+compiling GPIO_INIT.c...
+compiling main.c...
+compiling LED.c...
+compiling USART.c...
+compiling wdg.c...
+compiling STM32Flash.c...
+compiling DMA.c...
+compiling SPI.c...
+compiling STM32Flash_Lock.c...
+compiling W5500.c...
+compiling w5500_socket.c...
+compiling dhcp.c...
+..\Hardwave\W5500\dhcp.c(931): warning:  #177-D: variable "tmp" was declared but never referenced
+        uint8_t tmp;
+..\Hardwave\W5500\dhcp.c(934): warning:  #177-D: variable "TimeOutCount" was declared but never referenced
+        u16 TimeOutCount;
+..\Hardwave\W5500\dhcp.c(935): warning:  #177-D: variable "i" was declared but never referenced
+        u8 i;
+..\Hardwave\W5500\dhcp.c(998): warning:  #188-D: enumerated type mixed with another type
+        DHCP_SOCKET = s; // SOCK_DHCP
+..\Hardwave\W5500\dhcp.c: 4 warnings, 0 errors
+compiling os_cpu_c.c...
+compiling os_core.c...
+compiling os_dbg_r.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_tmr.c...
+assembling cpu_a.asm...
+assembling os_cpu_a.asm...
+compiling W5500_Task.c...
+..\UserTask\W5500_Task.c(35): warning:  #177-D: variable "SocketIntBit" was declared but never referenced
+        u8 SocketIntBit;
+..\UserTask\W5500_Task.c(36): warning:  #177-D: variable "SocketIntStatus" was declared but never referenced
+        u8 SocketIntStatus = 0;
+..\UserTask\W5500_Task.c(38): warning:  #177-D: variable "ch" was declared but never referenced
+        u8 ch = 0;      //记录哪个socket发送的数据
+..\UserTask\W5500_Task.c(74): warning:  #177-D: variable "count" was declared but never referenced
+        u32 count = 0;
+..\UserTask\W5500_Task.c(256): warning:  #177-D: variable "SocketStatus" was declared but never referenced
+        W5500_SOCKET_STATUS SocketStatus;
+..\UserTask\W5500_Task.c(353): warning:  #177-D: variable "DestIp" was declared but never referenced
+        u8 DestIp[4] = {192,168,1,117};
+..\UserTask\W5500_Task.c(360): warning:  #177-D: variable "SocketStatus" was declared but never referenced
+        W5500_SOCKET_STATUS SocketStatus;
+..\UserTask\W5500_Task.c: 7 warnings, 0 errors
+compiling SOCKET_Tas.c...
+..\UserTask\SOCKET_Tas.c(61): warning:  #68-D: integer conversion resulted in a change of sign
+        DHCP_init(SOCKET_INVALID, DataBuff);            //初始化DHCP，需要一个很大的缓冲区，建议给1KB以上
+..\UserTask\SOCKET_Tas.c(539): warning:  #177-D: variable "from" was declared but never referenced
+        sockaddr from;
+..\UserTask\SOCKET_Tas.c(104): warning:  #177-D: function "TCP_Client_Test" was declared but never referenced
+  static void TCP_Client_Test(void)
+..\UserTask\SOCKET_Tas.c(176): warning:  #177-D: function "TCP_Client_BlockingRece" was declared but never referenced
+  static void TCP_Client_BlockingRece(void)
+..\UserTask\SOCKET_Tas.c(247): warning:  #177-D: function "UDP_Client_BlockingRece" was declared but never referenced
+  static void UDP_Client_BlockingRece(void)
+..\UserTask\SOCKET_Tas.c(394): warning:  #177-D: function "UDP_Server_BlockingRece" was declared but never referenced
+  static void UDP_Server_BlockingRece(void)
+..\UserTask\SOCKET_Tas.c(465): warning:  #177-D: function "UDP_Server_BroadBlockingRece" was declared but never referenced
+  static void UDP_Server_BroadBlockingRece(void)
+..\UserTask\SOCKET_Tas.c(321): warning:  #177-D: function "UDP_Client_BroadSend" was declared but never referenced
+  static void UDP_Client_BroadSend(void)
+..\UserTask\SOCKET_Tas.c: 8 warnings, 0 errors
+compiling board.c...
+linking...
+Program Size: Code=21116 RO-data=1208 RW-data=184 ZI-data=13088  
+FromELF: creating hex file...
+After Build - User command #1: fromelf.exe --bin -o "F:\工作相关\DX-RTU-1遥测终端机\软件工程\RTU软件v4.xx\W5500测试工程\project\temp\01_W5500测试工程.bin" "F:\工作相关\DX-RTU-1遥测终端机\软件工程\RTU软件v4.xx\W5500测试工程\project\temp\01_W5500测试工程.axf"
+".\temp\01_W5500测试工程.axf" - 0 Error(s), 19 Warning(s).
+</pre>
+</body>
+</html>
+_addr);
+..\Hardwave\W5500\dhcp.c(928): warning:  #177-D: variable "tmp" was declared but never referenced
+        uint8_t tmp;
+..\Hardwave\W5500\dhcp.c: 11 warnings, 13 errors
+".\temp\01_W5500测试工程.axf" - 13 Error(s), 11 Warning(s).
+Target not created
+ W5500_GetMAC(DHCP_CHADDR);
+..\Hardwave\W5500\dhcp.c(1007): error:  #165: too few arguments in function call
+     W5500_GetMAC(DHCP_CHADDR);
+..\Hardwave\W5500\dhcp.c(1017): error:  #167: argument of type "u8 *" is incompatible with parameter of type "W5500_HANDLE *"
+        W5500_SetMAC(DHCP_CHADDR);     
+..\Hardwave\W5500\dhcp.c(1017): error:  #165: too few arguments in function call
+        W5500_SetMAC(DHCP_CHADDR);     
+..\Hardwave\W5500\dhcp.c(1025): error:  #167: argument of type "u8 *" is incompatible with parameter of type "W5500_HANDLE *"
+        W5500_SetLocalIP(zeroip);   //本地IP设置为0
+..\Hardwave\W5500\dhcp.c(1025): error:  #165: too few arguments in function call
+        W5500_SetLocalIP(zeroip);   //本地IP设置为0
+..\Hardwave\W5500\dhcp.c(1026): error:  #167: argument of type "u8 *" is incompatible with parameter of type "W5500_HANDLE *"
+        W5500_SetGatewayAddr(zeroip);//本地网关设置为0
+..\Hardwave\W5500\dhcp.c(1026): error:  #165: too few arguments in function call
+        W5500_SetGatewayAddr(zeroip);//本地网关设置为0
+..\Hardwave\W5500\dhcp.c: 11 warnings, 21 errors
+".\temp\01_W5500测试工程.axf" - 21 Error(s), 11 Warning(s).
+Target not created
+..\Hardwave\W5500\dhcp.c(1025): error:  #165: too few arguments in function call
+        W5500_SetLocalIP(zeroip);   //本地IP设置为0
+..\Hardwave\W5500\dhcp.c(1026): error:  #167: argument of type "u8 *" is incompatible with parameter of type "W5500_HANDLE *"
+        W5500_SetGatewayAddr(zeroip);//本地网关设置为0
+..\Hardwave\W5500\dhcp.c(1026): error:  #165: too few arguments in function call
+        W5500_SetGatewayAddr(zeroip);//本地网关设置为0
+..\Hardwave\W5500\dhcp.c: 12 warnings, 24 errors
+".\temp\01_W5500测试工程.axf" - 24 Error(s), 12 Warning(s).
+Target not created
+ntState" declared implicitly
+        W5500_ClearIntState(DHCP_SOCKET, 0X1F);
+..\Hardwave\W5500\dhcp.c(933): warning:  #223-D: function "W5500_GetIntState" declared implicitly
+        uart_printf("ISR1:%X\r\n", W5500_GetIntState(DHCP_SOCKET));
+..\Hardwave\W5500\dhcp.c(935): warning:  #188-D: enumerated type mixed with another type
+        ret = sendto(DHCP_SOCKET, (uint8_t *)"CHECK_IP_CONFLICT", 17, &server_addr);
+..\Hardwave\W5500\dhcp.c(917): warning:  #177-D: variable "tmp" was declared but never referenced
+        uint8_t tmp;
+..\Hardwave\W5500\dhcp.c(996): error:  #167: argument of type "u8 *" is incompatible with parameter of type "W5500_HANDLE *"
+     W5500_GetMAC(DHCP_CHADDR);
+..\Hardwave\W5500\dhcp.c(996): error:  #165: too few arguments in function call
+     W5500_GetMAC(DHCP_CHADDR);
+..\Hardwave\W5500\dhcp.c(1006): error:  #167: argument of type "u8 *" is incompatible with parameter of type "W5500_HANDLE *"
+        W5500_SetMAC(DHCP_CHADDR);     
+..\Hardwave\W5500\dhcp.c(1006): error:  #165: too few arguments in function call
+        W5500_SetMAC(DHCP_CHADDR);     
+..\Hardwave\W5500\dhcp.c(1014): error:  #167: argument of type "u8 *" is incompatible with parameter of type "W5500_HANDLE *"
+        W5500_SetLocalIP(zeroip);   //本地IP设置为0
+..\Hardwave\W5500\dhcp.c(1014): error:  #165: too few arguments in function call
+        W5500_SetLocalIP(zeroip);   //本地IP设置为0
+..\Hardwave\W5500\dhcp.c(1015): error:  #167: argument of type "u8 *" is incompatible with parameter of type "W5500_HANDLE *"
+        W5500_SetGatewayAddr(zeroip);//本地网关设置为0
+..\Hardwave\W5500\dhcp.c(1015): error:  #165: too few arguments in function call
+        W5500_SetGatewayAddr(zeroip);//本地网关设置为0
+..\Hardwave\W5500\dhcp.c: 13 warnings, 28 errors
+".\temp\01_W5500测试工程.axf" - 29 Error(s), 17 Warning(s).
+Target not created
+ warning:  #177-D: variable "count" was declared but never referenced
+        u32 count = 0;
+..\UserTask\W5500_Task.c(256): warning:  #177-D: variable "SocketStatus" was declared but never referenced
+        W5500_SOCKET_STATUS SocketStatus;
+..\UserTask\W5500_Task.c(353): warning:  #177-D: variable "DestIp" was declared but never referenced
+        u8 DestIp[4] = {192,168,1,117};
+..\UserTask\W5500_Task.c(360): warning:  #177-D: variable "SocketStatus" was declared but never referenced
+        W5500_SOCKET_STATUS SocketStatus;
+..\UserTask\W5500_Task.c: 7 warnings, 0 errors
+compiling SOCKET_Tas.c...
+..\UserTask\SOCKET_Tas.c(152): warning:  #177-D: variable "count" was declared but never referenced
+        u32 count = 0;
+..\UserTask\SOCKET_Tas.c(225): warning:  #177-D: variable "count" was declared but never referenced
+        u32 count = 0;
+..\UserTask\SOCKET_Tas.c(300): warning:  #177-D: variable "count" was declared but never referenced
+        u32 count = 0;
+..\UserTask\SOCKET_Tas.c(374): warning:  #177-D: variable "count" was declared but never referenced
+        u32 count = 0;
+..\UserTask\SOCKET_Tas.c(446): warning:  #177-D: variable "count" was declared but never referenced
+        u32 count = 0;
+..\UserTask\SOCKET_Tas.c(570): warning:  #225-D: the format string ends before this argument
+                                uart_printf("成功\r\n", address.addr[0],address.addr[1],address.addr[2],address.addr[3]);
+..\UserTask\SOCKET_Tas.c(574): warning:  #225-D: the format string ends before this argument
+                                uart_printf("\r\n", address.addr[0],address.addr[1],address.addr[2],address.addr[3]);
+..\UserTask\SOCKET_Tas.c(515): warning:  #177-D: variable "from" was declared but never referenced
+        sockaddr from;
+..\UserTask\SOCKET_Tas.c(517): warning:  #177-D: variable "count" was declared but never referenced
+        u32 count = 0;
+..\UserTask\SOCKET_Tas.c(75): warning:  #177-D: function "TCP_Client_Test" was declared but never referenced
+  static void TCP_Client_Test(void)
+..\UserTask\SOCKET_Tas.c(147): warning:  #177-D: function "TCP_Client_BlockingRece" was declared but never referenced
+  static void TCP_Client_BlockingRece(void)
+..\UserTask\SOCKET_Tas.c(219): warning:  #177-D: function "UDP_Client_BlockingRece" was declared but never referenced
+  static void UDP_Client_BlockingRece(void)
+..\UserTask\SOCKET_Tas.c(368): warning:  #177-D: function "UDP_Server_BlockingRece" was declared but never referenced
+  static void UDP_Server_BlockingRece(void)
+..\UserTask\SOCKET_Tas.c(440): warning:  #177-D: function "UDP_Server_BroadBlockingRece" was declared but never referenced
+  static void UDP_Server_BroadBlockingRece(void)
+..\UserTask\SOCKET_Tas.c(294): warning:  #177-D: function "UDP_Client_BroadSend" was declared but never referenced
+  static void UDP_Client_BroadSend(void)
+..\UserTask\SOCKET_Tas.c: 15 warnings, 0 errors
+".\temp\01_W5500测试工程.axf" - 28 Error(s), 38 Warning(s).
+Target not created

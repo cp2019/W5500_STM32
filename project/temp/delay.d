@@ -1,0 +1,13 @@
+.\temp\delay.o: ..\system\DELAY.c
+.\temp\delay.o: ..\system\SYSTEM.H
+.\temp\delay.o: ..\system\stm32f103_map.h
+.\temp\delay.o: ..\system\typedef.h
+.\temp\delay.o: ..\system\delay.h
+.\temp\delay.o: ..\system\system.h
+.\temp\delay.o: ..\system\gpio_init.h
+.\temp\delay.o: D:\ProgramFiles\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\temp\delay.o: ..\Program\ucOS_II\Source\ucos_ii.h
+.\temp\delay.o: ..\Program\ucOS_II\CortexM3\app_cfg.h
+.\temp\delay.o: ..\Program\ucOS_II\Source\os_cfg.h
+.\temp\delay.o: ..\Program\ucOS_II\CortexM3\os_cpu.h
+.\temp\delay.o: ..\Hardwave\usart.h
